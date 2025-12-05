@@ -50,13 +50,14 @@ Config-driven framework
 Git & GitHub
 
 ## 📂 Project Structure
+```
 automation-nopcommerce/
 │
 ├── docs/
 │   ├── TestPlan_Template.md
 │   ├── TestCase_Template.md
 │   ├── ManualSkills_Checklist.md
-│   ├── Ecommerce_Test_Scenarios.md
+│   └── Ecommerce_Test_Scenarios.md
 │
 ├── src/
 │   ├── main/
@@ -70,17 +71,16 @@ automation-nopcommerce/
 │   │       └── testdata/
 │   │
 │   └── test/
-│       └── java/
-│           ├── testcases/
-│           └── runners/
+│       ├── java/
+│       │   ├── testcases/
+│       │   └── runners/
 │
 ├── reports/
-│   └── (generated HTML reports)
 │
 ├── .gitignore
 ├── pom.xml
-├── README.md
-└── LICENSE (optional)
+└── README.md
+```
 
 ## 🧪 Test Coverage
 ### Core Scenarios Implemented

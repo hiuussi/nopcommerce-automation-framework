@@ -62,25 +62,28 @@ automation-nopcommerce/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── base/
-│   │   │   ├── pages/
-│   │   │   ├── utils/
-│   │   │   └── config/
+│   │   │   ├── base/                # Base classes: BaseTest, BasePage
+│   │   │   ├── pages/               # Page Object Model classes
+│   │   │   ├── utils/               # Common utilities: waits, helpers
+│   │   │   └── config/              # Framework-level configuration classes
 │   │   └── resources/
-│   │       ├── config.properties
-│   │       └── testdata/
+│   │       ├── config.properties    # Environment / URL / browser configs
+│   │       └── testdata/            # Static test data files (Excel/JSON)
 │   │
 │   └── test/
 │       ├── java/
-│       │   ├── testcases/
-│       │   └── runners/
+│       │   ├── testcases/           # Test classes (LoginTest, RegisterTest, etc.)
+│       │   └── runners/             # Suite files or TestNG runners
+│       └── resources/
+│           └── testng.xml           # TestNG suite config (optional)
 │
-├── reports/
+├── reports/                         # Auto-generated HTML/Extent reports
 │
 ├── .gitignore
 ├── pom.xml
 └── README.md
 ```
+
 
 ## 🧪 Test Coverage
 ### Core Scenarios Implemented
